@@ -6,7 +6,7 @@
 
 ### Description:
 
-
+This project will translate words into pig latin. 
 
 ### Set Up Instructions:
 
@@ -16,7 +16,7 @@
 
 ### Bugs:
 
-  None at the moment.
+  Project is still in progress. Thus far, we can only identify consonants. 
 
 ### Specs
 
@@ -57,10 +57,8 @@ Describe: pigLatin()
 
 1. VSCode
 2. GitHub
-3. HTML
-4. CSS
-5. JS
-6. Jquery
+3. JS
+4. Jquery
 
 ### Contact:
 
