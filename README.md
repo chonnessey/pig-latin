@@ -1,4 +1,4 @@
-<!-- ### Pig Latin Project
+### Pig Latin Project
 
 ##### By Isaac Moreno & Adrian Camacho
 
@@ -16,21 +16,44 @@
 
 ### Bugs:
 
- -->
+  None at the moment.
 
 ### Specs
 
+* pigLatin function will follow rules of pig latin language
+* pigLatin will look for word starting with vowel and add "way" to end.
+* pigLatin will move first consonants of word to the end and add "ay".
+* pigLatin will move words with first consonants "qu" to end of word.
+* pigLatin will treat words beginning with "y" as a consonant.
+
+### Tests
 Describe: pigLatin()
 
-1. Test: "It will add 'way' to the end of words that begin with a vowel."
+1. Test: "function will intake a string."
+    Code: pigLatin("")
+    Expected Output: "string"
+
+2.  Test: "will look for word starting with vowel and add "way" to end."
     Code: pigLatin("a");
     Expected Output: "away"
 
-2. Test: "
+3. Test: "will move first consonant of word to the end and add 'ay'."
+    Code: pigLatin("computer")
+    Expected Output: "omputercay"
 
+4. Test: "will move first consecutive consonants of a word to the end and add 'ay'."
+    Code: pigLatin("store")
+    Expected Output: "orestay"      
 
+5. Test: "It will move consonant "qu" to the end of the word."
+   Code: pigLatin("quilt")
+   Expected Output: "iltqu"
 
-<!-- ### Technologies Used:
+6. Test: "It will move words starting with 'y' to the end and add 'ay'."
+   Code: pigLatin(yogurt)
+   Expected Output: "ogurtyay"  
+
+### Technologies Used:
 
 1. VSCode
 2. GitHub
@@ -46,4 +69,4 @@ Describe: pigLatin()
 
 ### Licenses:
 
-MIT &copy; 2021 Isaac Moreno & Adrian Camacho -->
+MIT &copy; 2021 Isaac Moreno & Adrian Camacho
